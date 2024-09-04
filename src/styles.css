@@ -223,23 +223,23 @@ body{
 @keyframes words{
     0%,
     20%{
-        content: "Frontend Dev"
+        content: "Software Developer"
     }
     21%,
     40%{
-        content: "Backend Dev"
+        content: "Frontend Developer"
     }
     41%,
     60%{
-        content: "Database Design"
+        content: "Backend Developer"
     }
     61%,
     80%{
-        content: "Proyect management"
+        content: "Full Stack Developer"
     }
     81%,
     100%{
-        content: "Software Tester"
+        content: "Tech Enthusiast"
     }
 }
 @keyframes typing{
