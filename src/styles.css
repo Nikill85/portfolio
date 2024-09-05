@@ -382,7 +382,7 @@ body{
 }
 .service-box{
     background-color: var(--main-color);
-    height: 300px;
+    height: 350px;
     border-radius: 3rem;
     border: 5px solid transparent;
     cursor: pointer;
