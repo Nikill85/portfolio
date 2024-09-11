@@ -146,7 +146,7 @@
 
     <div class="wrapper">
       <div class="testimonial-item">
-        <img src="assets/cub.png" alt="">
+        <img src="assets/12.jpg" alt="">
         <h2>Marilyn</h2>
         <div class="rating">
           <i class='bx bxs-star' 
@@ -161,11 +161,11 @@
           id="star"></i>
 
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti temporibus odio iste vel pariatur, voluptate ipsum tenetur ullam nemo voluptatem magni dignissimos vero sed maiores similique, debitis quibusdam, non molestiae?</p>
+        <p>“Nilda ha transformado nuestras ideas en soluciones efectivas. Su habilidad para entender nuestras necesidades y desarrollar un software personalizado ha sido invaluable. El proyecto fue entregado a tiempo y superó nuestras expectativas en cada aspecto. ¡Altamente recomendada!”</p>
       </div>
 
       <div class="testimonial-item">
-        <img src="assets/cub.png"alt="">
+        <img src="assets/13.jpg"alt="">
         <h2>Julia</h2>
         <div class="rating">
           <i class='bx bxs-star' 
@@ -180,11 +180,11 @@
           id="star"></i>
 
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti temporibus odio iste vel pariatur, voluptate ipsum tenetur ullam nemo voluptatem magni dignissimos vero sed maiores similique, debitis quibusdam, non molestiae?</p>
+        <p>"Trabajar con Nilda ha sido una experiencia excepcional. Entendió claramente nuestras necesidades y entregó un software a medida que ha mejorado significativamente nuestra eficiencia. Su enfoque profesional y puntualidad superaron nuestras expectativas. ¡Una verdadera experta en su campo!"</p>
       </div>
 
       <div class="testimonial-item">
-        <img src="assets/cub.png" alt="">
+        <img src="assets/14.jpg" alt="">
         <h2>Rebecca</h2>
         <div class="rating">
           <i class='bx bxs-star' 
@@ -199,7 +199,7 @@
           id="star"></i>
 
         </div>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti temporibus odio iste vel pariatur, voluptate ipsum tenetur ullam nemo voluptatem magni dignissimos vero sed maiores similique, debitis quibusdam, non molestiae?</p>
+        <p>“Nilda demostró una gran habilidad para convertir nuestras ideas en software funcional y efectivo. Su capacidad para captar nuestros requisitos y entregar un producto a tiempo fue impresionante. La calidad y el rendimiento del software han sido sobresalientes. ¡Recomiendo sus servicios sin dudarlo!”</p>
       </div>
     </div>
   </div>
@@ -208,30 +208,33 @@
  <section class="contact" id="contact">
   <h2 class="heading">Contact <span>Me</span></h2>
 
-  <form action="mailto:nilda.medina493@gmail.com" method="post" enctype="text/plain">
+  <form id="form">
     <div class="input-group">
       <div class="input-box">
-        <input type="text"
-        placeholder="Full Name">
-        <input type="email"
-        placeholder="Email">
+        <input type="text" name="emailjs_name" placeholder="Full Name" required>
+        <input type="email" name="emailjs_email" placeholder="Email" required>
       </div>
       <div class="input-box">
-        <input type="number"
-        placeholder="Phone Number">
-        <input type="text"
-        placeholder="Subject">
+        <input type="tel" name="emailjs_phone" placeholder="Phone Number" required>
+        <input type="text" name="emailjs_subject" placeholder="Subject" required>
       </div>
     </div>
-
+  
     <div class="input-group-2">
-      <textarea name="" id="" cols="30"
-      rows="10" placeholder="Your Message"></textarea>
+      <textarea name="emailjs_message" id="emailjs_message" cols="30" rows="10" placeholder="Your Message" required></textarea>
       <input type="submit" value="Send Message" class="btn">
     </div>
   </form>
- </section>
-   
+  
+    <!-- EMAILJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('Qg8iIxZeEmh8IRppU');
+    </script>
+    <script src="src/script.js"></script>
+    
+
+ <!--        -->
 <footer class="footer">
   <div class="social">
     <a href="https://www.linkedin.com/in/nilda-v-medina" target="_blank"><i class='bx bxl-linkedin'></i></a>
